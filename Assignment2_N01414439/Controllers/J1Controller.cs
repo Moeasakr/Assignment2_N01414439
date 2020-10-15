@@ -18,7 +18,7 @@ namespace Assignment2_N01414439.Controllers
         /// <param name="dessert">The dessert's number</param>
         /// <returns>The total amount of calories from those items</returns>
         /// <example>
-        ///     GET : /api/J1/Menu/1/1/1/1          ->      858
+        ///     GET : /api/J1/Menu/1/1/1/1          ->      Your total calorie count is 858
         /// </example>
         [HttpGet]
         [Route("api/J1/Menu/{burger}/{drink}/{side}/{dessert}")]
